@@ -1,0 +1,26 @@
+####میانگین۳عدد
+num1=int(input('عدد اول: '))
+num2=int(input('عدد دوم: '))
+num3=int(input('عدد سوم:'))
+print((num1+num2+num3)/3)
+
+
+
+#### مربع و مکعب
+num=int(input('لطفا یک عدد وارد کنید:'))
+print(num*num)
+print(num*num*num)
+
+
+####تبدیل کیلومتر به متر
+km=int(input('لطفا کیلومتر را وارد کنید'))
+print(km*1000)
+print('به کیلومتر تبدیل شد')
+
+
+####ماه ها
+month=input('لطفا ماه را وارد کنید')
+if(month='march' or 'avrill'):
+    print('spring')
+elif(month='July' or 'juen'):
+    print('summer')
