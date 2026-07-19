@@ -1,0 +1,86 @@
+num1=int(input('عدد اول:'))
+num2=int(input('عدد دوم: '))
+print(num1+num2)
+
+
+#### خوش امد گویی 
+name=input('لطفا نام خود را وارد کنید: ')
+print(f'سلام{name} خوش امدید')
+
+
+
+
+####شمارش۱تا۱۰
+num=(0)
+while(num<10):
+    print(num)
+    num=num+1
+
+
+
+####شمارش معکوس۱تا۱۰
+num=(10)
+while(num>0):
+    print(num)
+    num=num-1
+
+
+
+####توان ۲کردن یک عدد
+num=int(input('لطفا یک عدد وارد کنید:'))
+print(num*num)
+
+
+
+#### اعداد زوج ۱تا۱۰
+num=(2)
+while(num<=10):
+    print(num)
+    num=num+2
+
+
+
+####چالش جدول ضرب
+num=int(input('لطفا یک عدد وارد کنید'))
+ad=(1)
+while(ad<10):
+    print(num*ad)
+    ad=ad+1
+
+
+
+####چالش مثبت ومنفی
+num=int(input('لطفا یک عدد وارد کنید: '))
+if(num<0):
+    print('عدد منفی است')
+elif(num>0):
+    print('عدد مثبت است')
+else:
+ print('عدد صفر است')
+
+
+
+
+####شاهکار۱
+target = 7
+num = int(input('لطفا حدس خودت را وارد کن: '))
+
+while num != target:
+    print('عدد اشتباه است، دوباره تلاش کن!')
+    num = int(input('لطفا حدس خودت را وارد کن: ')) 
+
+print('آفرین! درست حدس زدی.')
+
+
+
+
+####برنامه ای افسانه ای که عدد را با عدد خودش جمع میکند از اول تا اخر
+n = int(input('یک عدد وارد کن: '))
+sum = 0      
+counter = 1  
+
+while counter <= n:
+    sum = sum + counter   
+    counter = counter + 1 
+
+print(f'مجموع اعداد از ۱ تا {n} برابر است با: {sum}')
